@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.cottonon.userTest2.mainTest2">
+        <methods>
+          <include name="shopbycategory"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.cottonon.userTest2.mainTest2 -->
+      <class name="com.cottonon.userTest.mainTest">
+        <methods>
+          <include name="d_mybagtest"/>
+          <include name="a_homepagetest"/>
+          <include name="c_searchtest"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.cottonon.userTest.mainTest -->
+      <class name="com.cottonon.userTest1.mainTest1">
+        <methods>
+          <include name="wishlist"/>
+          <include name="beforeClass"/>
+          <include name="personaldeteltest"/>
+          <include name="addres"/>
+        </methods>
+      </class> <!-- com.cottonon.userTest1.mainTest1 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
